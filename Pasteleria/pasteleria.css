@@ -1,6 +1,7 @@
 /* =========================================
    PALETA DE COLORES - PASTELERÍA
    ========================================= */
+/*Prueba commit*/
 
 :root {
     --crema: #FFF5E1;
@@ -87,8 +88,7 @@ body {
 
     display: flex;
     flex-direction: row;
-
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     gap: 60px;
@@ -99,19 +99,8 @@ body {
 }
 
 
-/* TEXTO DEL HERO */
 
-.hero-texto {
-    width: 50%;
-    max-width: 600px;
-
-    text-align: left;
-}
-
-
-.hero-texto span {
-    display: block;
-
+.hero h1 {
     color: var(--chocolate);
 
     font-size: 48px;
@@ -134,12 +123,19 @@ body {
     margin: 25px auto 0 auto;
 }
 
-/* IMAGEN PRINCIPAL */
+#hero img.FotoMain{
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    order: 2;
+    border-radius: 10px;
+    justify-content: right;
+}
 
-.FotoMain {
-    width: 400px;
-    max-width: 40%;
-
+.hero img{
+    width: 800px;
+    
+   
     height: auto;
 
     border-radius: 10px;
